@@ -1,0 +1,10 @@
+read -p "enter a:" a
+read -p "enter b:" b
+echo "*----*addition*-----*"
+c = "expr $a + $b"
+echo "addition = $c"
+echo "*----*subtraction*-----*"
+c = "expr $b a - b"
+echo "*------*multliplication*-------*"
+c = "expr $a/$b"
+echo "division = $c"
